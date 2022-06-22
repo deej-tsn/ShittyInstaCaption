@@ -8,8 +8,7 @@ function newState(){
 
 window.onload = function(){
     body_object = document.body;
-
-    body_object.addEventListener("click", newState());
+    body_object.addEventListener("click", newState);
 
    
 }
